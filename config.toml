@@ -1,4 +1,5 @@
-baseURL = "www.knowprocess.com"
+#baseURL = "www.knowprocess.com"
+baseURL = "beta.knowprocess.com"
 languageCode = "en-gb"
 title = "KnowProcess"
 themesDir = "themes"
