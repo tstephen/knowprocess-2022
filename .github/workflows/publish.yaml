@@ -2,8 +2,13 @@ name: CD
 on:
   push:
     branches:
+      - main
       - master
       - 'releases/**'
+  pull_request:
+    branches:
+      - main
+      - master
 jobs:
   deploy:
     runs-on: ubuntu-latest
